@@ -1,7 +1,13 @@
-# Next-JS-V13-App-Router-Google-Analytics-GTM
+** Notice: in case any errors regard next 
+This is a known bug and can be resolved by wrapping your Analytics components in the root layout with a Suspense.  Next.js bug: https://github.com/vercel/next.js/issues/48442#issuecomment-1519139562
+
+**
+
+## Next-JS-V13-App-Router-Google-Analytics-GTM
+
 Next JS V13+ App Router Google Analytics&amp;GTM Integration 
 
-## 1-Create a new component **GoogleAnalytics.jsx**
+### 1-Create a new component **GoogleAnalytics.jsx**
 
 
 ```js
@@ -69,7 +75,7 @@ export default GoogleAnalytics
 ```
 
 
-## 2-Create a new helper function in the lib folder gtaghelper.js
+### 2-Create a new helper function in the lib folder gtaghelper.js
 
 ```js
 // Google tag manager Helper Function
@@ -82,7 +88,7 @@ export const pageView = (GA_MEASUREMENT_ID, url) => {
 
 ```
 
-## 3-In the main layout.jsx
+### 3-In the main layout.jsx
 
 1. Import the Google Analytics Component 
 
