@@ -69,7 +69,7 @@ export default GoogleAnalytics
 ```
 
 
-## 2-Create a new helper function in the lib folder graghelper.js
+## 2-Create a new helper function in the lib folder gtaghelper.js
 
 ```js
 // Google tag manager Helper Function
