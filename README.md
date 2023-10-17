@@ -1,7 +1,7 @@
-** Notice: in case any errors regard next 
-This is a known bug and can be resolved by wrapping your Analytics components in the root layout with a Suspense.  Next.js bug: https://github.com/vercel/next.js/issues/48442#issuecomment-1519139562
+*Notice: in case of any errors regarding NextJS
+This is a known bug and can be resolved by wrapping your Analytics components in the root layout with a Suspense.  Next.js bug: https://github.com/vercel/next.js/issues/48442#issuecomment-1519139562*
 
-**
+
 
 ## Next-JS-V13-App-Router-Google-Analytics-GTM
 
